@@ -1,0 +1,73 @@
+$fieldDistanceFromName: 60px;
+$questionOrAnswerPadding: 10px;
+$innerViewMargin: 10px;
+$pageMargin: 40px;
+
+.test_view {
+  padding-top: 10px;
+  background: white;
+  margin: $pageMargin;
+}
+
+.test_content {
+  margin: $innerViewMargin;
+}
+
+.test_name {
+  padding: 20px;
+  background: blueviolet;
+  text-align: center;
+}
+
+.section_view {
+  margin: $innerViewMargin;
+}
+
+.removable_section_heading {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto max-content;
+}
+
+.section_heading {
+  margin: auto;
+}
+
+.question_answer_view {
+  margin: $innerViewMargin;
+  display: grid;
+}
+
+.removable_question_field {
+  display: grid;
+  grid-template-columns: max-content auto max-content;
+}
+
+.question_view {
+  display: grid;
+  grid-template-columns: auto max-content;
+  background: aquamarine;
+}
+
+.question_text {
+  padding: $questionOrAnswerPadding;
+}
+
+.question_marks {
+  background: bisque;
+  padding: 10px;
+}
+
+.answer_field {
+  display: grid;
+  grid-template-columns: max-content auto;
+}
+
+.answer_view {
+  background: blanchedalmond;
+  padding: $questionOrAnswerPadding;
+}
+
+.field_name {
+  width: $fieldDistanceFromName;
+}
